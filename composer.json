@@ -1,0 +1,21 @@
+{
+  "name": "dez-php/dez-event",
+  "description": "EventDispatcher Component",
+  "keywords": ["event dispatcher", "event", "dez-php"],
+  "authors": [
+    {
+      "name": "Ivan Gontarenko",
+      "email": "vania.gontarenko@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dez\\EventDispatcher\\": "src/EventDispatcher"
+    }
+  }
+}
